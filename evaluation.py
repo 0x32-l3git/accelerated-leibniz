@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import math
-import sys
 
 
 def leibniz_partial(n: int) -> float:
