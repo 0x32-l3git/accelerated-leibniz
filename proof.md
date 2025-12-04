@@ -100,7 +100,7 @@ The error term after $n$ iterations in the standard Leibniz series is approximat
 \lvert E_{\text{Leibniz}} \rvert \approx \frac{1}{2n}.
 ```
 
-This gives an error that decays on the order of $O(n^{-1})$. To get $6$ digits of accuracy, one typically needs on the order of $10^{6}$ iterations.
+This gives an error that decays on the order of $n^{-1}$. To get $6$ digits of accuracy, one typically needs on the order of $10^{6}$ iterations.
 
 For our independently discovered cubic series, the general term is
 
@@ -108,7 +108,7 @@ For our independently discovered cubic series, the general term is
 \lvert a_n \rvert = \frac{1}{2n^3 + 3n^2 + n} \approx \frac{1}{2n^3},
 ```
 
-which yields an error that decays on the order of $O(n^{-3})$.
+which yields an error that decays on the order of $n^{-3}$.
 
 Because the denominator grows like $n^3$, the terms diminish much faster. Comparing error terms,
 
