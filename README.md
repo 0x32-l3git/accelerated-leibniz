@@ -4,7 +4,7 @@
 
 This repository documents the mathematical proof and computational verification of an independently discovered infinite series for $\pi$.
 
-While investigating rational functions and their summations, a specific cubic denominator was identified that, when summed alternatively, converges to $\pi$ with significantly higher efficiency than the classical Leibniz series. Unlike the standard Leibniz formula which exhibits error decay on the order of $O(1/n)$, this formulation has an error that decays on the order of $O(1/n^3)$.
+While investigating rational functions and their summations, a specific cubic denominator was identified that, when summed alternatively, converges to $\pi$ with significantly higher efficiency than the classical Leibniz series. Unlike the standard Leibniz formula which exhibits error decay on the order of $1/n$, this formulation has an error that decays on the order of $1/n^3$.
 
 ## The Formula
 
